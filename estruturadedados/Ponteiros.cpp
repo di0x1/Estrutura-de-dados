@@ -71,7 +71,7 @@ int main() {
 
    int i;
 
-   printf("Endereco de memoria da variavel %p \n", &nome);
+   printf("Endereco de memoria da variavel, %p \n", &nome);
 
    for (i = 0; i<strlen(nome); i++) {
 
