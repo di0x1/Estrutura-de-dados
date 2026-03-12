@@ -10,10 +10,8 @@ int main() {
     printf("Usando ponteiro: %s \n",pp);
     printf("Usando ponteiro de ponteiro: %s \n",*pp1);
 
-    // printf("2o caractere usando pp com [] %s \n",pp1[2]);
-    // for (int i = 3; i < 3; i++) {
-    //printf("3o caractere usando aritimetica %s \n",*(nome + i));
-    //}
+    printf("2o caractere usando pp com [] %c \n",(*pp1)[1]);
+       printf("3o caractere usando aritimetica %c\n",*(*pp1 + 2));
 
     int idade = 20;
     int *pid,**ppid;
